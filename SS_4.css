@@ -1,0 +1,39 @@
+body {
+    margin: 25px;
+    font-family: Times New Roman;
+    background-color: #c2a385;
+    color: #3b281c;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #6a4f3f;
+    padding: 10px;
+    color: rgb(205, 182, 157);
+}
+
+.navbar a {
+    color: #e0dbd7;
+    text-decoration: none;
+}
+
+.box {
+    background-color: #ffebcd;
+    border: 3px solid black;
+    padding: 15px;
+    width: 300px;
+}
+
+#done {
+    color: green;
+}
+
+.footer {
+    background-color: #3b281c;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

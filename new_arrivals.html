@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Arrivals</title>
+    <link rel="stylesheet" href="SS_3.css">
+</head>
+<body>
+
+   <!--NAVBAR-->
+ <div class="navbar">
+     <h2>Once Upon a Tamaraw Bookstore</h2>
+     <a href="index.html">Home</a>
+     <a href="catalog.html">Catalog</a>
+     <a href="new_arrivals.html">New Arrivals</a>
+     <a href="contact.html">Contact Us</a>
+</div>
+
+<!--P1-->
+    <h1>Pre-Order Books
+    <p>Cart items: <span id="cart">0</span></p>
+
+    <div class="container">
+        <div class="box">
+            <img src="55987278.jpg">
+            <h3>ONCE UPON A BROKEN HEART</h3>
+            <p>Price: ₱550
+            <button onclick="addBook()">Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="Sunrise_on_the_Reaping_book_cover.jpg">
+            <h3>SUNRISE ON THE REAPING</h3>
+            <p>Price: ₱420</p>
+            <button onclick="addBook()">Add to Cart</button>
+        </div>
+
+        <div class="box">
+            <img src="221228062.jpg">
+            <h3>HOUSE OF THE BEAST</h3>
+            <p>Price: ₱480</p>
+            <button onclick="addBook()">Add to Cart</button>
+        </div>
+    </div>
+
+<!--FOOTER-->
+    <div class="footer">
+        <p>© 2026 Once Upon a Tamaraw Bookstore</p>
+    </div>
+
+<!--JAVASCRIPT-->
+    <script>
+        var cart = 0;
+
+        function addBook() {
+            cart = cart + 1;
+            document.getElementById("cart").innerHTML = cart;
+            alert("Added to cart!");
+        }
+    </script>
+
+</body>
+</html>
